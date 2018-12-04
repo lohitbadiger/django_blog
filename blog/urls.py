@@ -3,8 +3,9 @@ from . import views
 from .views import PostListView 
 from .views import PostDetailView
 from .views import PostCreateView
-from .views import PostUpdateView
+from .views import PostUpdateView,UserPostListView
 from .views import PostDeleteView
+
 
 
 
@@ -24,6 +25,9 @@ urlpatterns = [
 
 
     path('about/', views.about, name='blog-about'),
+
+    path('user/<str:username>', UserPostListView.as_view(), name='user-posts'),
+
 
 ]
      

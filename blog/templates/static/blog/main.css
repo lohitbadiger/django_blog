@@ -1,11 +1,25 @@
 body {
-  background: #fafafa;
+  background: #807d7d09;
   color: #333333;
   margin-top: 5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+	font-weight: 400;
+	font-size: 38px;
+	color: #333;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 15px;
+  padding-bottom: 20px;
+  	font-family: 'Open Sans', serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #777;
+	font-weight: 400;
+	width: 100% !important;
+	height: 100% !important;
 }
 
 ul {
@@ -46,6 +60,7 @@ a.article-title:hover {
 }
 
 .article-content {
+
   white-space: pre-line;
 }
 
